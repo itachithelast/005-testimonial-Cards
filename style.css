@@ -14,8 +14,8 @@ body{
     padding: 20px;
 }
 .row{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .marg{
     margin: 5px;
@@ -32,4 +32,10 @@ img{
 }
 .name-box{
     margin: auto 0;
+}
+
+.box-sm{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
 }
