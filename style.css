@@ -9,6 +9,9 @@ body{
 .text-light{
     color: white;
 }
+.text-gray{
+    color: gray;
+}
 .cloud{
     background-color: black;
     padding: 20px;
@@ -23,7 +26,7 @@ body{
 .radius{
     border-radius: 20px;
 }
-img{
+.img{
     margin: 20px;
     border-radius: 50%;
 }
@@ -38,4 +41,9 @@ img{
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
+}
+.box-lg{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
