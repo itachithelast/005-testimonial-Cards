@@ -3,6 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 20px;
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
 body{
     padding: 10px;
 }
@@ -11,6 +18,9 @@ body{
 }
 .text-gray{
     color: gray;
+}
+.text-center{
+    text-align: center;
 }
 .cloud{
     background-color: black;
@@ -44,6 +54,23 @@ body{
 }
 .box-lg{
     margin: 10px auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    gap: 10px;
+}
+
+.box-slider{
+    border: 1px solid black;
+    padding: 40px;
+}
+.slider{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider img{
+    margin: 5px;
+}
+.blured{
+    filter: opacity(50%);
 }
